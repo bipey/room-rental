@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: #fffcfcc3;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.779);
+    height: 3vw;
+    padding: 4px 0px;
+    top: 0;
+}
+.logo{
+    width: 10%;
+    padding: 2px 20px;
+    display: flex;
+    color: #1e84f0;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.nav{
+    position: absolute;
+    right: 60px;
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.nav a{
+    color: rgb(179, 179, 34);
+    text-decoration: none;
+}
+.nav a:hover{
+    color: rgba(179, 179, 34, 0.832);
+    scale: 1.1;
+    background: #a1686859;
+    padding: 2px;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    height:calc(100%-4vh) ;
+    margin: auto;
+    align-items: center;
+    color: rgb(19, 16, 16);
+    padding: 53px 23px;
+}
+.home .homeimg{
+    width: 50%;
+    margin: auto;
+    
+}
+.home .homeimg img{
+    width: 500px;
+    height: 350px;
+}
+.hometext{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+ h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 3px 3px white;
+    padding: 10px;
+
+}
+.hometext span{
+    font-size: 20px;
+    color: rgb(24, 24, 17);
+    font-weight: 400;
+    
+}
+.seperation{
+    background-color: rgba(0, 0, 0, 0.471);
+    height: 4px;
+}
+.service{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    max-width: 100vw;
+    padding: 10px;
+}
+.mainService{
+    display: flex;
+    max-width: 100%;
+    padding: 23px 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.mainService .info{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 10px 0px;
+    border: 2px solid rgba(0, 0, 0, 0.571);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    margin: auto;
+
+}
+.details ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 15px;
+    
+}
+.image img{
+    height: 120px;
+    width: 200px;
+
+}
+.agent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    padding: 20px 5px;
+    flex-direction: column;
+    height: 53vh;
+    
+
+}
+.agentMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.agentInfo{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid brown;
+    padding: 10px;
+}
+.agentContact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 600;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+.agentImg{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.agentImg img{
+    height: 180px;
+    width: 150px;
+    
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    font-size: 24px;
+}
+.faqs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 30px;
+    height: auto;
+
+}
+.faqs h1{
+    font-weight: 900;
+}
+.ques{
+    padding: 3px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.faqs .faqbox{
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    background: rgb(17, 17, 17);
+    color: rgba(245, 243, 243, 0.851);
+    align-items: left;
+    padding: 10px;
+    width: 100%;
+}
+.faqbox:hover{
+    cursor: pointer;
+    background: #252424e9;
+}
+
+footer{
+    position: sticky;
+    bottom: 2px;
+    padding: 5px;
+    display: Flex;
+    flex-direction: row;
+    background: #cec5c5;
+    
+}
+footer .soc-border{
+    width: 40%;
+}
+footer a{
+    color: rgb(23, 21, 21);
+    text-decoration: none;
+    font-size: 16px;
+}
